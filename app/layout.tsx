@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={josefinSans.className}>
         <Header />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
